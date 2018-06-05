@@ -1,0 +1,36 @@
+{
+  "name": "justcode",
+  "displayName":
+    "Just Code",
+  "description":
+    "",
+  "version": "0.0.0",
+  "publisher": "psxcode",
+  "license": "MIT",
+  "icon": "logo.png",
+  "galleryBanner": {
+    "color": "#0b1015",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/psxcode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psxcode/justcode-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/psxcode/justcode-theme/issues"
+  },
+  "engines": {
+    "vscode": "^1.15.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Just Code",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jc.json"
+      }
+    ]
+  }
+}
