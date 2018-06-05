@@ -27,7 +27,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Just Code",
+        "label": "JustCode",
         "uiTheme": "vs-dark",
         "path": "./themes/jc.json"
       }
