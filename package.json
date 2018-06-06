@@ -1,6 +1,6 @@
 {
   "name": "justcode",
-  "displayName": "Just Code",
+  "displayName": "JustCode",
   "description": "",
   "version": "0.1.0",
   "publisher": "psxcode",
@@ -13,10 +13,10 @@
   "homepage": "https://github.com/psxcode",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psxcode/justcode-theme.git"
+    "url": "https://github.com/psxcode/justcode-vscode-theme"
   },
   "bugs": {
-    "url": "https://github.com/psxcode/justcode-theme/issues"
+    "url": "https://github.com/psxcode/justcode-vscode-theme/issues"
   },
   "engines": {
     "vscode": "^1.15.0"
