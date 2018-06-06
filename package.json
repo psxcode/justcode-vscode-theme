@@ -1,10 +1,8 @@
 {
   "name": "justcode",
-  "displayName":
-    "Just Code",
-  "description":
-    "",
-  "version": "0.0.0",
+  "displayName": "Just Code",
+  "description": "",
+  "version": "0.1.0",
   "publisher": "psxcode",
   "license": "MIT",
   "icon": "logo.png",
@@ -23,7 +21,9 @@
   "engines": {
     "vscode": "^1.15.0"
   },
-  "categories": ["Themes"],
+  "categories": [
+    "Themes"
+  ],
   "contributes": {
     "themes": [
       {
