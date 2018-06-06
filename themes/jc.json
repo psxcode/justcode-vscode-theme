@@ -1957,14 +1957,20 @@
 		},
 		{
 			"name": "ts types",
-			"scope": "entity.name.type",
+			"scope": [
+        "entity.name.type",
+        "meta.type.annotation.ts punctuation.definition.parameters",
+        "meta.type.annotation.ts storage.type.function.arrow"
+      ],
 			"settings": {
 				"foreground": "#FFF"
 			}
 		},
 		{
 			"name": "ts types primitives",
-			"scope": "support.type.primitive.ts",
+			"scope": [
+        "support.type.primitive.ts"
+      ],
 			"settings": {
 				"foreground": "#FFF",
 				"fontStyle": "italic"
