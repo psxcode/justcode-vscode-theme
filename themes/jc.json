@@ -1963,7 +1963,8 @@
         "meta.type.annotation.ts storage.type.function.arrow"
       ],
 			"settings": {
-				"foreground": "#FFF"
+        "foreground": "#FFF",
+        "fontStyle": ""
 			}
 		},
 		{
