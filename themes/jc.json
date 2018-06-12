@@ -1887,29 +1887,6 @@
 			}
 		},
 		{
-			"name": "js/ts separators",
-			"scope": [
-				"punctuation.separator",
-				"punctuation.accessor",
-				"punctuation.terminator"
-			],
-			"settings": {
-				"foreground": "#535b61",
-				"fontStyle": ""
-			}
-		},
-		{
-			"name": "js/ts stupid braces",
-			"scope": [
-				"meta.block",
-        "meta.brace.round"
-			],
-			"settings": {
-				"foreground": "#535b61",
-				"fontStyle": ""
-			}
-		},
-		{
 			"name": "js/ts other code",
 			"scope": [
 				"variable.parameter",
@@ -1976,6 +1953,30 @@
 			"settings": {
 				"foreground": "#FFF",
 				"fontStyle": "italic"
+			}
+    },
+
+		{
+			"name": "js/ts separators",
+			"scope": [
+				"punctuation.separator",
+				"punctuation.accessor",
+				"punctuation.terminator"
+			],
+			"settings": {
+				"foreground": "#535b61",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "js/ts stupid braces",
+			"scope": [
+				"meta.block",
+        "meta.brace.round"
+			],
+			"settings": {
+				"foreground": "#535b61",
+				"fontStyle": ""
 			}
 		}
 	]
