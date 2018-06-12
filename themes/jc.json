@@ -356,13 +356,6 @@
 			}
 		},
 		{
-			"name": "js dom variable",
-			"scope": "support.variable.dom,support.variable.property.dom",
-			"settings": {
-				"foreground": "#EF596F"
-			}
-		},
-		{
 			"name": "keyword.operator",
 			"scope": "keyword.operator.arithmetic,keyword.operator.comparison",
 			"settings": {
@@ -534,7 +527,7 @@
 			"name": "Classes",
 			"scope": "support.class, entity.name.type.class",
 			"settings": {
-				"foreground": "#e5c07b"
+				"foreground": "#A9B7C6"
 			}
 		},
 		{
@@ -1474,18 +1467,6 @@
 		},
 		{
 			"scope": [
-				"variable.other.property",
-				"support.variable.property.dom",
-				"entity.other.inherited-class",
-				"variable.other.php",
-				"variable.language.this.php"
-			],
-			"settings": {
-				"foreground": "#9876AA"
-			}
-		},
-		{
-			"scope": [
 				"variable.other.object",
 				"variable.other.object.property",
 				"support.class.dom",
@@ -1811,7 +1792,16 @@
 			"scope": [
 				"storage.type",
 				"storage.modifier",
-				"keyword.control",
+				"keyword.control"
+			],
+			"settings": {
+				"foreground": "#cc7832ff",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "js/ts operators",
+			"scope": [
 				"keyword.operator.new",
 				"keyword.operator.expression.of",
 				"keyword.operator.expression.in",
@@ -1854,7 +1844,8 @@
 				"support.class.console",
 				"support.type.object.module",
 				"variable.language.arguments",
-				"keyword.other.debugger"
+        "keyword.other.debugger",
+        "support.variable.dom"
 			],
 			"settings": {
 				"foreground": "#ef596fff"
@@ -1908,6 +1899,17 @@
 			}
 		},
 		{
+			"name": "js/ts stupid braces",
+			"scope": [
+				"meta.block",
+        "meta.brace.round"
+			],
+			"settings": {
+				"foreground": "#535b61",
+				"fontStyle": ""
+			}
+		},
+		{
 			"name": "js/ts other code",
 			"scope": [
 				"variable.parameter",
@@ -1935,7 +1937,6 @@
 			"name": "js/ts property access",
 			"scope": [
 				"support.variable.property",
-				"support.variable.property.dom",
 				"variable.other.property"
 			],
 			"settings": {
