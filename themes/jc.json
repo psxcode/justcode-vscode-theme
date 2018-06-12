@@ -1955,7 +1955,6 @@
 				"fontStyle": "italic"
 			}
     },
-
 		{
 			"name": "js/ts separators",
 			"scope": [
