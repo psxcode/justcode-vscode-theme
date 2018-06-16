@@ -27,9 +27,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "JustCode",
+        "label": "JustCode - Darcula",
         "uiTheme": "vs-dark",
-        "path": "./themes/jc.json"
+        "path": "./themes/darcula.json"
       }
     ]
   }
