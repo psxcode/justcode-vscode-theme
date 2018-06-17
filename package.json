@@ -30,6 +30,11 @@
         "label": "JustCode - Darcula",
         "uiTheme": "vs-dark",
         "path": "./themes/darcula.json"
+      },
+      {
+        "label": "JustCode - Darcula Grayscale",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darcula-grayscale.json"
       }
     ]
   }
