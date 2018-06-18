@@ -405,80 +405,10 @@
       }
     },
     {
-      "name": "Class name",
-      "scope": "entity.name.class",
-      "settings": {
-        "foreground": "#52ADF2"
-      }
-    },
-    {
-      "name": "Type Name",
-      "scope": "entity.name.type",
-      "settings": {
-        "foreground": "#e5c07b"
-      }
-    },
-    {
-      "name": "Storage",
-      "scope": "storage",
-      "settings": {
-        "foreground": "#D55FDE"
-      }
-    },
-    {
-      "name": "Storage JS TS",
-      "scope": "token.storage",
-      "settings": {
-        "foreground": "#D55FDE"
-      }
-    },
-    {
       "name": "Java Storage",
       "scope": "token.storage.type.java",
       "settings": {
         "foreground": "#e5c07b"
-      }
-    },
-    {
-      "name": "Support",
-      "scope": "support.function",
-      "settings": {
-        "foreground": "#2BBAC5"
-      }
-    },
-    {
-      "name": "Support type",
-      "scope": "support.type.property-name",
-      "settings": {
-        "foreground": "#AAB1C0"
-      }
-    },
-    {
-      "name": "Support type",
-      "scope": "support.constant.property-value",
-      "settings": {
-        "foreground": "#AAB1C0"
-      }
-    },
-    {
-      "name": "Support type",
-      "scope": "support.constant.font-name",
-      "settings": {
-        "foreground": "#D8985F"
-      }
-    },
-    {
-      "name": "Meta tag",
-      "scope": "meta.tag",
-      "settings": {
-        "foreground": "#AAB1C0"
-      }
-    },
-    {
-      "name": "Strings, Inherited Class",
-      "scope": "string, entity.other.inherited-class",
-      "settings": {
-        "foreground": "#89CA78"
       }
     },
     {
@@ -500,14 +430,6 @@
       "scope": "entity.other.attribute-name",
       "settings": {
         "foreground": "#D8985F"
-      }
-    },
-    {
-      "name": "Attribute IDs",
-      "scope": "entity.other.attribute-name.id",
-      "settings": {
-        "foreground": "#52ADF2",
-        "fontStyle": "normal"
       }
     },
     {
@@ -1385,8 +1307,8 @@
         "storage"
       ],
       "settings": {
-        "foreground": "#808080",
-        "fontStyle": "italic"
+        "foreground": "#eee",
+        "fontStyle": ""
       }
     },
     {
@@ -1395,8 +1317,41 @@
         "keyword"
       ],
       "settings": {
-        "foreground": "#bbb",
-        "fontStyle": "italic"
+        "foreground": "#eee",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "js/ts keyword import/export",
+      "scope": [
+        "keyword.control.as.js",
+        "keyword.control.from",
+        "keyword.control.default"
+      ],
+      "settings": {
+        "foreground": "#444",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "js/ts keyword import/export",
+      "scope": [
+        "keyword.control.import",
+        "keyword.control.export"
+      ],
+      "settings": {
+        "foreground": "#808080",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "js/ts node module",
+      "scope": [
+        "support.type.object.module"
+      ],
+      "settings": {
+        "foreground": "#808080",
+        "fontStyle": ""
       }
     },
     {
@@ -1408,24 +1363,23 @@
       ],
       "settings": {
         "foreground": "#808080",
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "js/ts node module",
-      "scope": [
-        "support.type.object.module"
-      ],
-      "settings": {
-        "foreground": "#808080",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
 
     {
-      "name": "js/ts function declaration",
+      "name": "js/ts function declaration arrow",
       "scope": [
-        "storage.type.function.arrow",
+        "storage.type.function.arrow"
+      ],
+      "settings": {
+        "foreground": "#cc7832ff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "js/ts function declaration parens",
+      "scope": [
         "punctuation.definition.parameters"
       ],
       "settings": {
@@ -1474,7 +1428,7 @@
         "punctuation.definition.binding-pattern"
       ],
       "settings": {
-        "foreground": "#bbb",
+        "foreground": "#cc7832ff",
         "fontStyle": ""
       }
     },
