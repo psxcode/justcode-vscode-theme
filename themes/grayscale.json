@@ -1,7 +1,7 @@
 {
-  "name": "justcode-darcula",
+  "name": "justcode-grayscale",
   "type": "dark",
-  "include" : "./_common.json",
+  "include": "./_common.json",
   "tokenColors": [
     {
       "name": "jsx/tsx tags",
@@ -29,7 +29,8 @@
         "punctuation.section.embedded"
       ],
       "settings": {
-        "foreground": "#FFC66D"
+        "foreground": "#808080",
+        "fontStyle": ""
       }
     },
     {
@@ -49,7 +50,8 @@
         "constant.numeric"
       ],
       "settings": {
-        "foreground": "#6897BB"
+        "foreground": "#bbb",
+        "fontStyle": ""
       }
     },
     {
@@ -58,8 +60,8 @@
         "storage"
       ],
       "settings": {
-        "foreground": "#cc7832ff",
-        "fontStyle": "bold"
+        "foreground": "#eee",
+        "fontStyle": "italic"
       }
     },
     {
@@ -68,20 +70,31 @@
         "keyword"
       ],
       "settings": {
-        "foreground": "#cc7832ff",
-        "fontStyle": "bold"
+        "foreground": "#eee",
+        "fontStyle": "italic"
       }
     },
     {
-      "name": "js/ts operators",
+      "name": "js/ts keyword import/export",
       "scope": [
-        "keyword.operator.new",
-        "keyword.operator.expression",
-        "variable.language.super"
+        "keyword.control.as.js",
+        "keyword.control.from",
+        "keyword.control.default"
       ],
       "settings": {
-        "foreground": "#cc7832ff",
-        "fontStyle": "bold"
+        "foreground": "#444",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "js/ts keyword import/export",
+      "scope": [
+        "keyword.control.import",
+        "keyword.control.export"
+      ],
+      "settings": {
+        "foreground": "#808080",
+        "fontStyle": ""
       }
     },
     {
@@ -90,30 +103,62 @@
         "support.type.object.module"
       ],
       "settings": {
-        "foreground": "#cc7832ff",
-        "fontStyle": "bold"
+        "foreground": "#808080",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "js/ts operators",
+      "scope": [
+        "keyword.operator.new",
+        "keyword.operator.expression"
+      ],
+      "settings": {
+        "foreground": "#808080",
+        "fontStyle": ""
       }
     },
 
     {
-      "name": "js/ts function declaration",
+      "name": "js/ts function declaration arrow",
       "scope": [
-        "storage.type.function.arrow",
-        "punctuation.definition.parameters"
+        "storage.type.function.arrow"
       ],
       "settings": {
-        "foreground": "#cc7832ff",
+        "foreground": "#eee",
         "fontStyle": "bold"
       }
     },
     {
-      "name": "js/ts this",
+      "name": "js/ts function declaration parens",
       "scope": [
-        "variable.language.this"
+        "punctuation.definition.parameters"
       ],
       "settings": {
-        "foreground": "#cc7832ff",
+        "foreground": "#eee",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "js/ts this/super",
+      "scope": [
+        "variable.language.this",
+        "variable.language.super"
+      ],
+      "settings": {
+        "foreground": "#808080",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "js/ts function/constructor",
+      "scope": [
+        "meta.class meta.method.declaration storage.type.js",
+        "storage.type.function.js"
+      ],
+      "settings": {
+        "foreground": "#808080",
+        "fontStyle": "italic"
       }
     },
     {
@@ -137,8 +182,8 @@
         "meta.function-call entity.name.function"
       ],
       "settings": {
-        "foreground": "#FFC66D",
-        "fontStyle": ""
+        "foreground": "#bbb",
+        "fontStyle": "italic"
       }
     },
     {
@@ -147,7 +192,7 @@
         "punctuation.definition.binding-pattern"
       ],
       "settings": {
-        "foreground": "#cc7832ff",
+        "foreground": "#eee",
         "fontStyle": ""
       }
     },
@@ -259,7 +304,8 @@
       "name": "string",
       "scope": "string",
       "settings": {
-        "foreground": "#6A8759"
+        "foreground": "#808080",
+        "fontStyle": ""
       }
     },
     {
@@ -269,7 +315,18 @@
         "punctuation.definition.template-expression"
       ],
       "settings": {
-        "foreground": "#6A8759",
+        "foreground": "#eee",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "js/ts object creation",
+      "scope": [
+        "meta.object-literal.key",
+        "meta.interface punctuation.definition.block"
+      ],
+      "settings": {
+        "foreground": "#808080",
         "fontStyle": ""
       }
     },
@@ -277,22 +334,23 @@
       "name": "js/ts object creation",
       "scope": [
         "meta.array.literal",
-        "meta.objectliteral",
-        "meta.object-literal.key",
-        "meta.interface punctuation.definition.block"
+        "meta.objectliteral"
       ],
       "settings": {
-        "foreground": "#9876AA"
+        "foreground": "#eee",
+        "fontStyle": ""
       }
     },
     {
       "name": "js/ts method declaration",
       "scope": [
         "meta.method.declaration",
+        "meta.method.declaration",
         "meta.definition.method"
       ],
       "settings": {
-        "foreground": "#9876AA"
+        "foreground": "#bbb",
+        "fontStyle": ""
       }
     },
     {
@@ -328,6 +386,16 @@
       ],
       "settings": {
         "foreground": "#464646",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "js/ts import path",
+      "scope": [
+        "meta.import string"
+      ],
+      "settings": {
+        "foreground": "#808080",
         "fontStyle": ""
       }
     }

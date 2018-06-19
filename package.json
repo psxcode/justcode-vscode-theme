@@ -32,9 +32,9 @@
         "path": "./themes/darcula.json"
       },
       {
-        "label": "JustCode - Darcula Grayscale",
+        "label": "JustCode - Grayscale",
         "uiTheme": "vs-dark",
-        "path": "./themes/darcula-grayscale.json"
+        "path": "./themes/grayscale.json"
       }
     ]
   }
