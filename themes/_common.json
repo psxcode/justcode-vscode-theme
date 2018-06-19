@@ -412,13 +412,6 @@
       }
     },
     {
-      "name": "Attributes",
-      "scope": "entity.other.attribute-name",
-      "settings": {
-        "foreground": "#D8985F"
-      }
-    },
-    {
       "name": "Attribute class",
       "scope": "entity.other.attribute-name.class.css",
       "settings": {
@@ -988,12 +981,6 @@
       ],
       "settings": {
         "foreground": "#9876AA"
-      }
-    },
-    {
-      "scope": "entity.other.attribute-name",
-      "settings": {
-        "foreground": "#bbb"
       }
     },
     {
