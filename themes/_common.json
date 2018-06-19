@@ -861,20 +861,6 @@
       }
     },
     {
-      "name": "ts primitive/builtin types",
-      "scope": "support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx",
-      "settings": {
-        "foreground": "#e5c07b"
-      }
-    },
-    {
-      "name": "block scope",
-      "scope": "block.scope.end,block.scope.begin",
-      "settings": {
-        "foreground": "#AAB1C0"
-      }
-    },
-    {
       "name": "cs storage type",
       "scope": "storage.type.cs",
       "settings": {

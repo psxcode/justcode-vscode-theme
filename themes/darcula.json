@@ -24,12 +24,23 @@
       }
     },
     {
-      "name": "jsx/tsx embedded",
+      "name": "jsx/tsx embedded braces",
       "scope": [
         "punctuation.section.embedded"
       ],
       "settings": {
-        "foreground": "#FFC66D"
+        "foreground": "#FFC66D",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "jsx/tsx attribute name",
+      "scope": [
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#808080",
+        "fontStyle": ""
       }
     },
     {
@@ -43,15 +54,20 @@
         "fontStyle": ""
       }
     },
+
+
     {
       "name": "constant numbers",
       "scope": [
         "constant.numeric"
       ],
       "settings": {
-        "foreground": "#6897BB"
+        "foreground": "#6897BB",
+        "fontStyle": ""
       }
     },
+
+
     {
       "name": "js/ts storage",
       "scope": [
@@ -73,11 +89,10 @@
       }
     },
     {
-      "name": "js/ts operators",
+      "name": "js/ts keyword import/export",
       "scope": [
-        "keyword.operator.new",
-        "keyword.operator.expression",
-        "variable.language.super"
+        "keyword.control.import",
+        "keyword.control.export"
       ],
       "settings": {
         "foreground": "#cc7832ff",
@@ -88,6 +103,17 @@
       "name": "js/ts node module",
       "scope": [
         "support.type.object.module"
+      ],
+      "settings": {
+        "foreground": "#cc7832ff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "js/ts operators",
+      "scope": [
+        "keyword.operator.new",
+        "keyword.operator.expression"
       ],
       "settings": {
         "foreground": "#cc7832ff",
@@ -106,16 +132,21 @@
         "fontStyle": "bold"
       }
     },
+
+
     {
-      "name": "js/ts this",
+      "name": "js/ts this/super",
       "scope": [
-        "variable.language.this"
+        "variable.language.this",
+        "variable.language.super"
       ],
       "settings": {
         "foreground": "#cc7832ff",
         "fontStyle": "bold"
       }
     },
+
+
     {
       "name": "js/ts caution",
       "scope": [
@@ -130,6 +161,8 @@
         "fontStyle": ""
       }
     },
+
+
     {
       "name": "js/ts function call",
       "scope": [
@@ -178,10 +211,13 @@
         "fontStyle": ""
       }
     },
+
+
     {
       "name": "ts types",
       "scope": [
         "entity.name.type",
+        "meta.object.type",
         "meta.type.annotation.ts punctuation.definition.parameters",
         "meta.type.annotation.ts storage.type.function.arrow"
       ],
@@ -193,13 +229,16 @@
     {
       "name": "ts types primitives",
       "scope": [
-        "support.type.primitive.ts"
+        "support.type.builtin",
+        "support.type.primitive"
       ],
       "settings": {
         "foreground": "#eee",
         "fontStyle": "italic"
       }
     },
+
+
     {
       "name": "js/ts punctuation",
       "scope": [
@@ -234,6 +273,8 @@
         "fontStyle": ""
       }
     },
+
+
     {
       "name": "js/ts property readwrite",
       "scope": [
@@ -255,11 +296,14 @@
         "fontStyle": ""
       }
     },
+
+
     {
       "name": "string",
       "scope": "string",
       "settings": {
-        "foreground": "#6A8759"
+        "foreground": "#6A8759",
+        "fontStyle": ""
       }
     },
     {
@@ -273,6 +317,8 @@
         "fontStyle": ""
       }
     },
+
+
     {
       "name": "js/ts object creation",
       "scope": [
@@ -282,9 +328,12 @@
         "meta.interface punctuation.definition.block"
       ],
       "settings": {
-        "foreground": "#9876AA"
+        "foreground": "#9876AA",
+        "fontStyle": ""
       }
     },
+
+
     {
       "name": "js/ts method declaration",
       "scope": [
@@ -292,20 +341,12 @@
         "meta.definition.method"
       ],
       "settings": {
-        "foreground": "#9876AA"
-      }
-    },
-    {
-      "name": "jsx/tsx attribute name",
-      "scope": [
-        "entity.other.attribute-name.js",
-        "entity.other.attribute-name.ts"
-      ],
-      "settings": {
-        "foreground": "#808080",
+        "foreground": "#bbb",
         "fontStyle": ""
       }
     },
+
+
     {
       "name": "js/ts tuned down properties chain",
       "scope": [
@@ -317,6 +358,8 @@
         "fontStyle": ""
       }
     },
+
+
     {
       "name": "js/ts comment",
       "scope": [
