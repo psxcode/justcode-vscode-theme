@@ -342,7 +342,8 @@
     {
       "name": "js/ts template/string expression",
       "scope": [
-        "punctuation.definition.string"
+        "punctuation.definition.string",
+        "keyword.control.anchor.regexp"
       ],
       "settings": {
         "foreground": "#eee",

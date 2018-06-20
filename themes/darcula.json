@@ -309,8 +309,18 @@
     {
       "name": "js/ts template/string expression",
       "scope": [
-        "punctuation.definition.string",
-        "punctuation.definition.template-expression"
+        "punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "#98c378",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "js/ts template/string expression",
+      "scope": [
+        "punctuation.definition.template-expression",
+        "keyword.control.anchor.regexp"
       ],
       "settings": {
         "foreground": "#6A8759",

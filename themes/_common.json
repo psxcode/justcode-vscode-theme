@@ -577,13 +577,6 @@
       }
     },
     {
-      "name": "Regular Expressions",
-      "scope": "string.regexp",
-      "settings": {
-        "foreground": "#57B6C2"
-      }
-    },
-    {
       "name": "Embedded",
       "scope": "punctuation.section.embedded, variable.interpolation",
       "settings": {
