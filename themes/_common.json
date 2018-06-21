@@ -644,20 +644,6 @@
       }
     },
     {
-      "name": "[VSCODE-CUSTOM] JSON Property Name",
-      "scope": "support.type.property-name.json",
-      "settings": {
-        "foreground": "#EF596F"
-      }
-    },
-    {
-      "name": "[VSCODE-CUSTOM] JSON Punctuation for Property Name",
-      "scope": "support.type.property-name.json punctuation",
-      "settings": {
-        "foreground": "#EF596F"
-      }
-    },
-    {
       "name": "laravel blade tag",
       "scope": "text.html.laravel-blade source.php.embedded.line.html entity.name.tag.laravel-blade",
       "settings": {

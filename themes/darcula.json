@@ -383,6 +383,61 @@
         "foreground": "#464646",
         "fontStyle": ""
       }
+    },
+
+
+    {
+      "name": "json punctuation",
+      "scope": [
+        "source.json punctuation",
+        "source.json punctuation.definition.string",
+        "source.json punctuation.support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#444",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "json punctuation definition",
+      "scope": [
+        "source.json punctuation.definition"
+      ],
+      "settings": {
+        "foreground": "#bbb",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "json string",
+      "scope": [
+        "source.json string"
+      ],
+      "settings": {
+        "foreground": "#bbb",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "json constant",
+      "scope": [
+        "source.json constant.language",
+        "source.json constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#6897BB",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "json keys",
+      "scope": [
+        "source.json support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#808080",
+        "fontStyle": ""
+      }
     }
   ]
 }

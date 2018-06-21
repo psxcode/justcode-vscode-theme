@@ -2,6 +2,95 @@
   "name": "justcode-grayscale",
   "type": "dark",
   "include": "./_common.json",
+  "colors": {
+    "foreground": "#999",
+    "focusBorder": "#999",
+    "widget.shadow": "#000000",
+    "input.background": "#101010",
+    "input.border": "#232323",
+    "dropdown.background": "#101010",
+    "dropdown.border": "#232323",
+    "list.focusBackground": "#232323",
+    "list.focusForeground": "#ffffff",
+    "list.activeSelectionBackground": "#101010",
+    "list.inactiveSelectionBackground": "#101010",
+    "list.inactiveSelectionForeground": "#ffffff",
+    "list.hoverBackground": "#232323",
+    "list.hoverForeground": "#ffffff",
+    "list.highlightForeground": "#ffffff",
+    "button.hoverBackground": "#232323",
+    "scrollbar.shadow": "#00000026",
+    "scrollbarSlider.background": "#232323",
+    "scrollbarSlider.hoverBackground": "#22303e",
+    "editor.background": "#101010",
+    "editor.foreground": "#ddd",
+    "editorWidget.background": "#101010",
+    "editor.selectionBackground": "#232323",
+    "editor.findMatchBackground": "#232323",
+    "editorHoverWidget.background": "#101010",
+    "editor.lineHighlightBackground": "#232323",
+    "editor.lineHighlightBorder": "#232323",
+    "editorCursor.foreground": "#ffffff",
+    "editorWhitespace.foreground": "#232323",
+    "editorIndentGuide.background": "#232323",
+    "editorIndentGuide.activeBackground": "#555",
+    "editorLineNumber.foreground": "#3a3a3a",
+    "editorActiveLineNumber.foreground": "#999",
+    "editorRuler.foreground": "#232323",
+    "editorBracketMatch.border": "#999",
+    "editorOverviewRuler.border": "#101010",
+    "editorSuggestWidget.background": "#101010",
+    "editorSuggestWidget.selectedBackground": "#232323",
+    "peekViewTitle.background": "#232323",
+    "peekViewTitleLabel.foreground": "#ffffff",
+    "peekView.border": "#232323",
+    "peekViewResult.background": "#232323",
+    "peekViewResult.selectionBackground": "#232323",
+    "peekViewEditor.background": "#232323",
+    "tab.activeBackground": "#101010",
+    "tab.inactiveBackground": "#101010",
+    "tab.hoverBackground": "#232323",
+    "tab.border": "#101010",
+    "tab.activeBorder": "#232323",
+    "tab.unfocusedActiveBorder": "#101010",
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveForeground": "#999",
+    "editorGroup.background": "#101010",
+    "editorGroupHeader.tabsBackground": "#101010",
+    "editorGroupHeader.noTabsBackground": "#101010",
+    "editorGroup.border": "#101010",
+    "panel.background": "#101010",
+    "panel.border": "#232323",
+    "panelTitle.activeForeground": "#ffffff",
+    "panelTitle.inactiveForeground": "#999",
+    "statusBar.foreground": "#999",
+    "statusBar.background": "#101010",
+    "activityBar.background": "#101010",
+    "activityBar.foreground": "#999",
+    "activityBarBadge.background": "#ffffff",
+    "activityBarBadge.foreground": "#000000",
+    "sideBar.background": "#101010",
+    "sideBarSectionHeader.background": "#101010",
+    "sideBarSectionHeader.foreground": "#ffffff",
+    "titleBar.inactiveForeground": "#101010",
+    "titleBar.activeBackground": "#101010",
+    "notificationToast.border": "#232323",
+    "notifications.foreground": "#eeeeee",
+    "notifications.background": "#232323",
+    "notificationCenterHeader.foreground": "#eeeeee",
+    "notificationCenterHeader.background": "#232323",
+    "notifications.border": "#232323",
+    "statusBar.debuggingBackground": "#101010",
+    "editorGutter.modifiedBackground": "#e5c07b",
+    "editorGutter.addedBackground": "#ccc",
+    "editorGutter.deletedBackground": "#ef596f",
+    "debugToolBar.background": "#101010",
+    "gitDecoration.modifiedResourceForeground": "#f7f308",
+    "gitDecoration.deletedResourceForeground": "#ef596f",
+    "gitDecoration.untrackedResourceForeground": "#11eb73",
+    "gitDecoration.ignoredResourceForeground": "#00b7c9",
+    "gitDecoration.conflictingResourceForeground": "#d55fde"
+  },
   "tokenColors": [
     {
       "name": "jsx/tsx tags",
@@ -43,6 +132,18 @@
         "fontStyle": ""
       }
     },
+
+
+    {
+      "name": "html",
+      "scope": [
+        "text.html"
+      ],
+      "settings": {
+        "foreground": "#bbb",
+        "fontStyle": ""
+      }
+    },
     {
       "name": "html",
       "scope": [
@@ -50,7 +151,27 @@
         "text.html punctuation.definition.tag"
       ],
       "settings": {
-        "foreground": "#FFC66D",
+        "foreground": "#bbb",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "html string definition",
+      "scope": [
+        "text.html punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "#444",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "html string definition",
+      "scope": [
+        "text.html entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#808080",
         "fontStyle": ""
       }
     },
@@ -440,6 +561,60 @@
       "name": "js/ts import path",
       "scope": [
         "meta.import string"
+      ],
+      "settings": {
+        "foreground": "#808080",
+        "fontStyle": ""
+      }
+    },
+
+
+    {
+      "name": "json punctuation",
+      "scope": [
+        "source.json punctuation",
+        "source.json punctuation.definition.string",
+        "source.json punctuation.support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#444",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "json punctuation definition",
+      "scope": [
+        "source.json punctuation.definition"
+      ],
+      "settings": {
+        "foreground": "#bbb",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "json string",
+      "scope": [
+        "source.json string"
+      ],
+      "settings": {
+        "foreground": "#bbb",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "json constant",
+      "scope": [
+        "source.json constant.language"
+      ],
+      "settings": {
+        "foreground": "#bbb",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "json keys",
+      "scope": [
+        "source.json support.type.property-name"
       ],
       "settings": {
         "foreground": "#808080",
