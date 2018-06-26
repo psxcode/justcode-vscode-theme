@@ -330,15 +330,43 @@
 
 
     {
-      "name": "js/ts object creation",
+      "name": "js/ts object key",
       "scope": [
-        "meta.array.literal",
-        "meta.objectliteral",
-        "meta.object-literal.key",
-        "meta.interface punctuation.definition.block"
+        "meta.object-literal.key"
       ],
       "settings": {
         "foreground": "#9876AA",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "js/ts object creation",
+      "scope": [
+        "meta.interface punctuation.definition.block",
+        "meta.objectliteral"
+      ],
+      "settings": {
+        "foreground": "#9876AA",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "js/ts object array creation",
+      "scope": [
+        "meta.array.literal"
+      ],
+      "settings": {
+        "foreground": "#9876AA",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "js/ts object colon",
+      "scope": [
+        "punctuation.separator.key-value"
+      ],
+      "settings": {
+        "foreground": "#444",
         "fontStyle": ""
       }
     },

@@ -484,10 +484,9 @@
 
 
     {
-      "name": "js/ts object creation",
+      "name": "js/ts object key",
       "scope": [
-        "meta.object-literal.key",
-        "meta.interface punctuation.definition.block"
+        "meta.object-literal.key"
       ],
       "settings": {
         "foreground": "#808080",
@@ -497,8 +496,18 @@
     {
       "name": "js/ts object creation",
       "scope": [
-        "meta.array.literal",
+        "meta.interface punctuation.definition.block",
         "meta.objectliteral"
+      ],
+      "settings": {
+        "foreground": "#eee",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "js/ts object array creation",
+      "scope": [
+        "meta.array.literal"
       ],
       "settings": {
         "foreground": "#eee",
