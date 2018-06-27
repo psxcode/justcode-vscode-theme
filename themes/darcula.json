@@ -161,6 +161,16 @@
         "fontStyle": ""
       }
     },
+    {
+      "name": "js/ts caution bold",
+      "scope": [
+        "meta.embedded.expression meta.objectliteral"
+      ],
+      "settings": {
+        "foreground": "#ef596fff",
+        "fontStyle": "bold"
+      }
+    },
 
 
     {
@@ -181,7 +191,7 @@
       ],
       "settings": {
         "foreground": "#cc7832ff",
-        "fontStyle": ""
+        "fontStyle": "bold"
       }
     },
     {
