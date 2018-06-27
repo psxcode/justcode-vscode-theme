@@ -454,7 +454,10 @@
 
     {
       "name": "string",
-      "scope": "string",
+      "scope": [
+        "string",
+        "string keyword"
+      ],
       "settings": {
         "foreground": "#808080",
         "fontStyle": ""
