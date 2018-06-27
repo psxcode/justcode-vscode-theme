@@ -164,7 +164,10 @@
     {
       "name": "js/ts caution bold",
       "scope": [
-        "meta.embedded.expression meta.objectliteral"
+        "meta.embedded.expression meta.objectliteral",
+        "meta.embedded.expression storage",
+        "meta.embedded.expression storage.type.function.arrow",
+        "meta.embedded.expression punctuation.definition.parameters"
       ],
       "settings": {
         "foreground": "#ef596fff",
