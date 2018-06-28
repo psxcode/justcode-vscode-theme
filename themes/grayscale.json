@@ -291,8 +291,8 @@
     {
       "name": "js/ts function/constructor",
       "scope": [
-        "meta.class meta.method.declaration storage.type.js",
-        "storage.type.function.js"
+        "meta.class meta.method.declaration storage.type",
+        "storage.type.function"
       ],
       "settings": {
         "foreground": "#808080",
@@ -313,6 +313,18 @@
       "settings": {
         "foreground": "#ef596fff",
         "fontStyle": ""
+      }
+    },
+    {
+      "name": "js/ts caution bold",
+      "scope": [
+        "meta.embedded.expression meta.objectliteral",
+        "meta.embedded.expression storage.type.function",
+        "meta.embedded.expression storage.type.function.arrow"
+      ],
+      "settings": {
+        "foreground": "#ef596fff",
+        "fontStyle": "bold"
       }
     },
 
