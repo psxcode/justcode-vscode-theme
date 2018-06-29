@@ -384,8 +384,9 @@
       "scope": [
         "entity.name.type",
         "meta.object.type",
-        "meta.type.annotation.ts punctuation.definition.parameters",
-        "meta.type.annotation.ts storage.type.function.arrow"
+        "meta.type.function punctuation.definition.parameters",
+        "meta.type.function storage.type.function.arrow",
+        "meta.type.annotation meta.brace.square"
       ],
       "settings": {
         "foreground": "#eee",
