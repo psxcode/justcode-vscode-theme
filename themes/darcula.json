@@ -9,7 +9,7 @@
         "support.class"
       ],
       "settings": {
-        "foreground": "#bbb",
+        "foreground": "#ccc",
         "fontStyle": ""
       }
     },
@@ -220,7 +220,7 @@
         "meta.definition"
       ],
       "settings": {
-        "foreground": "#bbb",
+        "foreground": "#ccc",
         "fontStyle": ""
       }
     },
@@ -236,7 +236,7 @@
         "meta.type.annotation meta.brace.square"
       ],
       "settings": {
-        "foreground": "#eee",
+        "foreground": "#fff",
         "fontStyle": ""
       }
     },
@@ -247,7 +247,7 @@
         "support.type.primitive"
       ],
       "settings": {
-        "foreground": "#eee",
+        "foreground": "#fff",
         "fontStyle": "italic"
       }
     },
@@ -296,7 +296,7 @@
         "support.variable.property"
       ],
       "settings": {
-        "foreground": "#bbb",
+        "foreground": "#ccc",
         "fontStyle": ""
       }
     },
@@ -306,7 +306,7 @@
         "entity.name.type.class"
       ],
       "settings": {
-        "foreground": "#bbb",
+        "foreground": "#ccc",
         "fontStyle": ""
       }
     },
@@ -396,7 +396,7 @@
         "meta.definition.method"
       ],
       "settings": {
-        "foreground": "#bbb",
+        "foreground": "#ccc",
         "fontStyle": ""
       }
     },
@@ -425,7 +425,7 @@
         "comment"
       ],
       "settings": {
-        "foreground": "#464646",
+        "foreground": "#606060",
         "fontStyle": ""
       }
     },
@@ -449,7 +449,7 @@
         "source.json punctuation.definition"
       ],
       "settings": {
-        "foreground": "#bbb",
+        "foreground": "#ccc",
         "fontStyle": ""
       }
     },
@@ -459,7 +459,7 @@
         "source.json string"
       ],
       "settings": {
-        "foreground": "#bbb",
+        "foreground": "#ccc",
         "fontStyle": ""
       }
     },
