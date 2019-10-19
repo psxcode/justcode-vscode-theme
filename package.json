@@ -35,11 +35,6 @@
         "label": "JustCode - Grayscale",
         "uiTheme": "vs-dark",
         "path": "./themes/grayscale.json"
-      },
-      {
-        "label": "JustCode - Saturn",
-        "uiTheme": "vs-dark",
-        "path": "./themes/saturn.json"
       }
     ]
   }
