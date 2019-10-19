@@ -37,5 +37,8 @@
         "path": "./themes/grayscale.json"
       }
     ]
+  },
+  "devDependencies": {
+    "vsce": "^1.68.0"
   }
 }
