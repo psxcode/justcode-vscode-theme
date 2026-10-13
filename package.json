@@ -39,6 +39,10 @@
     ]
   },
   "devDependencies": {
-    "vsce": "^1.68.0"
+    "@vscode/vsce": "^4.0.0"
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
   }
 }
